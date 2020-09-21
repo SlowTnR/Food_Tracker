@@ -14,6 +14,7 @@
 		4DA278952512481100EF7DBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA278942512481100EF7DBC /* Assets.xcassets */; };
 		4DA278982512481100EF7DBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA278962512481100EF7DBC /* LaunchScreen.storyboard */; };
 		4DA278A32512481100EF7DBC /* Food_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA278A22512481100EF7DBC /* Food_TrackerTests.swift */; };
+		4DA278AE2518D0EB00EF7DBC /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA278AD2518D0EB00EF7DBC /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		4DA2789E2512481100EF7DBC /* Food_TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Food_TrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA278A22512481100EF7DBC /* Food_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_TrackerTests.swift; sourceTree = "<group>"; };
 		4DA278A42512481100EF7DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DA278AD2518D0EB00EF7DBC /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				4DA2788B2512481000EF7DBC /* AppDelegate.swift */,
 				4DA2788D2512481000EF7DBC /* SceneDelegate.swift */,
 				4DA2788F2512481000EF7DBC /* ViewController.swift */,
+				4DA278AD2518D0EB00EF7DBC /* RatingControl.swift */,
 				4DA278912512481000EF7DBC /* Main.storyboard */,
 				4DA278942512481100EF7DBC /* Assets.xcassets */,
 				4DA278962512481100EF7DBC /* LaunchScreen.storyboard */,
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DA278AE2518D0EB00EF7DBC /* RatingControl.swift in Sources */,
 				4DA278902512481000EF7DBC /* ViewController.swift in Sources */,
 				4DA2788C2512481000EF7DBC /* AppDelegate.swift in Sources */,
 				4DA2788E2512481000EF7DBC /* SceneDelegate.swift in Sources */,
