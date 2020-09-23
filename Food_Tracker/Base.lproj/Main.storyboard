@@ -20,11 +20,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="L0h-Kn-96I">
-                                <rect key="frame" x="20" y="226" width="374" height="492.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="L0h-Kn-96I">
+                                <rect key="frame" x="20" y="226" width="374" height="451.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dew-lZ-4Ic">
-                                        <rect key="frame" x="0.0" y="0.0" width="86" height="20.5"/>
+                                        <rect key="frame" x="144" y="0.0" width="86" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -34,15 +34,8 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5zf-DU-kAh">
-                                        <rect key="frame" x="0.0" y="76.5" width="151" height="30"/>
-                                        <state key="normal" title="Set Default Label Text"/>
-                                        <connections>
-                                            <action selector="setDefaultLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qzm-EK-xr8"/>
-                                        </connections>
-                                    </button>
                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="320" verticalHuggingPriority="320" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="320" insetsLayoutMarginsFromSafeArea="NO" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="enk-1C-0KU">
-                                        <rect key="frame" x="0.0" y="117.5" width="320" height="320"/>
+                                        <rect key="frame" x="27" y="76.5" width="320" height="320"/>
                                         <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="enk-1C-0KU" secondAttribute="height" multiplier="1:1" id="z6Y-no-dZU"/>
@@ -52,7 +45,7 @@
                                         </connections>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="wiC-NZ-Sf7" customClass="RatingControl" customModule="Food_Tracker" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="448.5" width="252" height="44"/>
+                                        <rect key="frame" x="61" y="407.5" width="252" height="44"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="starCount">
                                                 <integer key="value" value="5"/>
@@ -80,6 +73,7 @@
                         <outlet property="mealNameLabel" destination="Dew-lZ-4Ic" id="3gQ-CR-mNh"/>
                         <outlet property="nameTextField" destination="VKh-Gp-Srr" id="ssG-G3-5Wx"/>
                         <outlet property="photoImageView" destination="enk-1C-0KU" id="0rX-RP-q57"/>
+                        <outlet property="ratingControl" destination="wiC-NZ-Sf7" id="5hG-YT-HuJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
