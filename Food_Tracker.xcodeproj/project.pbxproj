@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D508F27251CC132004D9751 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D508F26251CC132004D9751 /* Meal.swift */; };
 		4DA2788C2512481000EF7DBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2788B2512481000EF7DBC /* AppDelegate.swift */; };
 		4DA2788E2512481000EF7DBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2788D2512481000EF7DBC /* SceneDelegate.swift */; };
 		4DA278902512481000EF7DBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2788F2512481000EF7DBC /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D508F26251CC132004D9751 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		4DA278882512481000EF7DBC /* Food_Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Food_Tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA2788B2512481000EF7DBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DA2788D2512481000EF7DBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				4DA2788B2512481000EF7DBC /* AppDelegate.swift */,
 				4DA2788D2512481000EF7DBC /* SceneDelegate.swift */,
 				4DA2788F2512481000EF7DBC /* ViewController.swift */,
+				4D508F26251CC132004D9751 /* Meal.swift */,
 				4DA278AD2518D0EB00EF7DBC /* RatingControl.swift */,
 				4DA278912512481000EF7DBC /* Main.storyboard */,
 				4DA278942512481100EF7DBC /* Assets.xcassets */,
@@ -203,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D508F27251CC132004D9751 /* Meal.swift in Sources */,
 				4DA278AE2518D0EB00EF7DBC /* RatingControl.swift in Sources */,
 				4DA278902512481000EF7DBC /* ViewController.swift in Sources */,
 				4DA2788C2512481000EF7DBC /* AppDelegate.swift in Sources */,
